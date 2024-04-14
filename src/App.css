@@ -1,0 +1,100 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  height: 1.5rem;
+  background-color: gainsboro;
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  color: black;
+  padding-top: 0.2rem;
+}
+
+main {
+  padding: 1.2rem;
+}
+
+#shopping-cart img{
+  height: 100%;
+}
+#shopping-cart img:hover{
+  filter: invert(0.5);
+  cursor: pointer;
+}
+
+#cart-container {
+  background-color: gainsboro;
+  color: black;
+  padding-inline: 1.5rem;
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  width: 30%;
+  border: 2px solid black;
+}
+
+#total-price {
+  text-align: right;
+  font-weight: bold;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sort-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+#products-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+}
+
+.product {
+  background-color: gainsboro;
+  color: black;
+  padding: 0.5rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+button {
+  align-self: flex-end;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+@media (max-width: 991.98px){
+  #products-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+  }
+}
+
+@media (max-width: 500px){
+  #products-container {
+    grid-template-columns: 1fr;
+  }
+}

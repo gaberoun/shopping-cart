@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Earthen Bottle",
+    "price": 4800,
+    "image":
+      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg"
+  },
+  {
+    "name": "Nomad Tumbler",
+    "price": 3500,
+    "image":
+      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg"
+  },
+  {
+    "name": "Focus Paper Refill",
+    "price": 8900,
+    "image":
+      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg"
+  },
+  {
+    "name": "Machined Mechanical Pencil",
+    "price": 3500,
+    "image":
+      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg"
+  },
+  {
+    "name": "Focus Card Tray",
+    "price": 6400,
+    "image":
+      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg"
+  },
+  {
+    "name": "Focus Multi-Pack",
+    "price": 3900,
+    "image":
+      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-06.jpg"
+  },
+  {
+    "name": "Brass Scissors",
+    "price": 5000,
+    "image":
+      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-07.jpg"
+  },
+  {
+    "name": "Focus Carry Pouch",
+    "price": 3200,
+    "image": 
+      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-08.jpg"
+  }
+]
